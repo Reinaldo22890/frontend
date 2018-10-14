@@ -10,12 +10,16 @@ import { LayoutModule } from '@angular/cdk/layout';
 import { AppRoutingModule } from './/app-routing.module';
 import { InicioComponent } from './inicio/inicio.component';
 import {MatMenuModule} from '@angular/material/menu';
+import { RegistroComponent } from './registro/registro.component';
+import { LoginComponent } from './login/login.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavigationComponent,
-    InicioComponent
+    InicioComponent,
+    RegistroComponent,
+    LoginComponent
   ],
   imports: [
     BrowserModule,
